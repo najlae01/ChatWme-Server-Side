@@ -8,6 +8,7 @@ const { notFound, errorHandler} = require('./middleware/ErrorMiddleware')
 const userRoutes = require('./routes/UserRoutes')
 
 dotenv.config()
+
 connectDB()
 
 const app = express()
